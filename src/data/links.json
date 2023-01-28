@@ -26,7 +26,7 @@
     },
     {
         "link": "https://github.com/ericjohannes/mailchimpToZephr",
-        "name": "mailchimpToZephr",
+        "name": "mailchimpToZephr app",
         "about": "I wrote this node app to sync subscriber data between two systems. THe APIs natively allowed updates in one system to be sent to the other but not back the other way. This meant when someone unsubscribed from a newsletter via an email link that would not be reflected on their account when they logged into Protocol's website. My node app ran on an EC2 server and tapped into the MailChimp and Zephyr APIs so user data would be synced across both systems.",
         "org": "Protocol",
         "priority": 0,
@@ -76,5 +76,15 @@
         "priority": 0,
         "photo": "vaccines.png"
 
+    },
+    {
+        "link": "https://store.bookbaby.com/book/pake",
+        "name": "Pake: The Oral History of a Frisian Immigrant",
+        "about": "I wrote a book! It’s an oral history of my grandpa. It started as a personal project but now is out in the world. My cousin worked on it with me",
+        "org": "Bookbaby",
+        "priority": 0,
+        "photo": "pakebook2.jpg"
+
     }
+
 ]

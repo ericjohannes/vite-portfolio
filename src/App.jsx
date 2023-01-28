@@ -11,48 +11,39 @@ let highPriority = [];
 
 const handleLink = (link)=>{
   return (
-  <div>            
+  <div key={`"link-${link.name}"`}>            
     <a href={link.link} targetf="_blank">
       <h3>{link.name}</h3>
     </a>
     <p>{link.org}</p>
-    <p>{link.about}</p>
+    <div className='photo-wrapper'>
+      <div className='link-photo' style={{backgroundImage: `url('./public/${link.photo}')`}}>
+        
+
+      </div>
+      <p className='about-text'>{link.about}</p>
+    </div>
   </div>)
 }
 const App = ()=>{
   const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" targetf="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <h1 className='page-title'>Eric Blom</h1>
+      <p className='intro'>I'm a senior newsroom developer at National Geographic. Before that I  was a developer straddling editorial and product for <a href="https://protocol.com" target="_blank">Protocol</a> (RIP) and <a href="https://www.sfchronicle.com/" target="_blank">Heasrt Newspapers</a>. I started my career reporting for a <a href="https://rivertonranger.com/" target="_blank">small newspaper in Wyoming</a> but fell in love with coding from taking <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank">CS50</a> online.</p>
+      <h2 className='subhead'>Some projects I'm proud of</h2>
+
       {
-        highPriority.map(linkSet=>{
+        highPriority.map((linkSet, i)=>{
           return(
-            <div>
+            <section key={`"section-${i}"`}>
               {linkSet.map(handleLink)}
-            </div>
+            </section>
           )
       })
       }
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </div>
   )
 }
