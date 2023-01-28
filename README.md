@@ -1,0 +1,1 @@
+This is a project to build a portfolio site for myself. It's made with vite.
