@@ -9,7 +9,16 @@ let highPriority = [];
 
 })
 
-const handleLink = (link)
+const handleLink = (link)=>{
+  return (
+  <div>            
+    <a href={link.link} targetf="_blank">
+      <h3>{link.name}</h3>
+    </a>
+    <p>{link.org}</p>
+    <p>{link.about}</p>
+  </div>)
+}
 const App = ()=>{
   const [count, setCount] = useState(0)
 
@@ -24,21 +33,12 @@ const App = ()=>{
         </a>
       </div>
       {
-        highPriority.map(set=>{
-          <div>
-            set.map(link=>{
-              return(
-                <div>
-                  
-                  <a href={link.link} targetf="_blank">
-                    <h3>{link.name}</h3>
-                  </a>
-                  <p>{link.org}</p>
-                  <p>{link.about}</p>
-                </div>
-              )
-            })
-          </div>
+        highPriority.map(linkSet=>{
+          return(
+            <div>
+              {linkSet.map(handleLink)}
+            </div>
+          )
       })
       }
       <h1>Vite + React</h1>
