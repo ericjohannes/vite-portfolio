@@ -1,0 +1,80 @@
+[
+
+    {
+        "link": "https://preview.nationalgeographic.com/magazine/graphics/follow-the-troubled-path-of-the-first-voyage-around-the-world?_isPremium=false&_isMetered=false&_isPreview=true&forceMode=fitt&digital=cloud&cb=1ga71i3eq",
+        "name": "Elcano interactive map",
+        "about": "I created the interactive graphics for this page using OpenSeaDragon to serve a tiled image and D3.js to construct a route across it that you follow as you scroll. The graphic lets you follow the route of the first circumnavigation of the world. The page is written in Javascript.",
+        "org": "National Geographic",
+        "priority": 0,
+        "photo": "elcano.png"
+    },
+    {
+        "link": "https://preview.nationalgeographic.com/magazine/graphics/see-the-enduring-power-of-king-tut-as-never-before-feature?_isPremium=false&_isMetered=false&_isPreview=true&forceMode=fitt&digital=cloud&cb=1gn3ggv6h",
+        "name": "See the Enduring Power of King Tut",
+        "about": "My role on this team effort was to contribute styling to the images and text in many of the slides using SASS/CSS.",
+        "org": "National Geographic",
+        "priority": 1,
+        "photo": "tut.png"
+    },
+    {
+        "link": "https://www.nationalgeographic.com/science/graphics/graphic-tracking-coronavirus-infections-us",
+        "name": "Coronavirus in the U.S.: Where cases are growing and declining",
+        "about": "This project uses a Node app to gather and transformm data and has a page of interactive D3.js graphics to display the data. I updated the project to rebuild some of the data scraping processes and adjust some of the data visualizations.",
+        "org": "National Geographic",
+        "priority": 1,
+        "photo": "coronavirus.png"
+    },
+    {
+        "link": "https://github.com/ericjohannes/mailchimpToZephr",
+        "name": "mailchimpToZephr",
+        "about": "I wrote this node app to sync subscriber data between two systems. THe APIs natively allowed updates in one system to be sent to the other but not back the other way. This meant when someone unsubscribed from a newsletter via an email link that would not be reflected on their account when they logged into Protocol's website. My node app ran on an EC2 server and tapped into the MailChimp and Zephyr APIs so user data would be synced across both systems.",
+        "org": "Protocol",
+        "priority": 0,
+        "photo": "mailchimpToZephyr.png"
+
+    },
+    {
+        "link": "https://www.protocol.com/advertise/",
+        "name": "Protocol 'Advertise with Us' page",
+        "about": "As a developer on the product side, I created the \"Advertise with Us\" page, a new navigation bar and other front end pieces with Javascript, HTML and CSS.",
+        "org": "Protocol",
+        "priority": 2,
+        "photo": "advertise.png"
+    },
+    {
+        "link": "https://www.protocol.com/enterprise/russia-chip-imports",
+        "name": "Data reveals where Russia chip sanctions will sting the most",
+        "about": "Analyzed data to find insights about chips being sent to Russia during war with Ukraine.",
+        "org": "Protocol",
+        "priority": 2,
+        "photo": "russian.png"
+    },
+    {
+        "link": "https://www.sfchronicle.com/projects/2020/california-election-results/?fromRichie=1",
+        "name": "Election rig",
+        "about": "I rewrote the app that provides live election results for all Hearst newspapers, the San Francisco Chronicle, Houston Chronicle, etc. It scrapes election results from csvs, pdfs and html documents, combines them with data gathered from the AP's election data API. It loads the data into a MySQL database and transforms it into JSON files formatted for live results pages that include tables and charts.\nI rewrote the app from Perl to Python and then expanded it to handle all Hearst papers, added features so it run on an AWS server in the cloud and managed updates to it through several election cycles.",
+        "org": "Hearst Newspapers/San Francisco Chronicle",
+        "priority": 0,
+        "photo": "electionrig1.png"
+
+    },
+    {
+        "link": "https://www.sfchronicle.com/projects/2021/census-california/?fromRichie=1",
+        "name": "'How neighborhoods changed' Census app",
+        "about": "I used Python to process Census and geographic data and then upload it to Mapbox through their APIs. Then helped build an interactive React app that shows you Census data about the neighborhood for any address in the U.S. It uses Mapbox's geocoding and point-in-polygon APIs to pull in the Census data for those coordinates from Mapbox.",
+        "org": "Hearst Newspapers/San Francisco Chronicle",
+        "priority": 0,
+        "photo": "census.png"
+
+
+    },
+    {
+        "link": "https://www.houstonchronicle.com/projects/coronavirus-vaccine-tracker-texas/?fromRichie=1",
+        "name": "Vaccine tracker",
+        "about": "I was one of two developers who made a vaccine tracker for five metro areas and half a dozen smaller papers. I did most of the backend work to make a Python app to scrape several    `data sources, do some calculations, reformat the data and save it where our front end could use it. We created the interactive graphics using React.",
+        "org": "Hearst Newspapers/San Francisco Chronicle",
+        "priority": 0,
+        "photo": "vaccines.png"
+
+    }
+]
