@@ -1,13 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import links from './data/links.json'
 
-let highPriority = [];
-[0,1].map(i=>{
-  highPriority.push( links.filter((link)=>link.priority=i));
-
-})
+let highPriority = links.filter((link)=>link.priority==0)
 
 const handleLink = (link)=>{
   return (
@@ -26,23 +20,17 @@ const handleLink = (link)=>{
   </div>)
 }
 const App = ()=>{
-  const [count, setCount] = useState(0)
-  
+  console.log('links',links)
   return (
     <div className="App">
       <h1 className='page-title'>Eric Blom</h1>
       <p className='intro'>I'm a senior newsroom developer at National Geographic. Before that I  was a developer straddling editorial and product for <a href="https://protocol.com" target="_blank">Protocol</a> (RIP) and <a href="https://www.sfchronicle.com/" target="_blank">Heasrt Newspapers</a>. I started my career reporting for a <a href="https://rivertonranger.com/" target="_blank">small newspaper in Wyoming</a> but fell in love with coding from taking <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank">CS50</a> online.</p>
       <h2 className='subhead'>Some projects I'm proud of</h2>
-
-      {
-        highPriority.map((linkSet, i)=>{
-          return(
-            <section key={`"section-${i}"`}>
-              {linkSet.map(handleLink)}
-            </section>
-          )
-      })
-      }
+      <p className='disclaimer'>I did my best to set the links to work around paywalls but some workarounds might stop working. And most of the code is proprietary so I'm showing what I can.</p>
+      <section key="top-projects">
+              {highPriority.map(handleLink)}
+      </section>
+      
       
     </div>
   )
