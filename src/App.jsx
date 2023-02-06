@@ -6,31 +6,32 @@ let highPriority = links.filter((link)=>link.priority==0)
 const handleLink = (link)=>{
   return (
   <div key={`"link-${link.name}"`} className="project-link">            
+    <a href={link.link} targetf="_blank">
 
     <div className='photo-wrapper'>
       <div className='link-photo' style={{backgroundImage: `url('./${link.photo}')`}}> </div>
     </div>
-    <a href={link.link} targetf="_blank">
       <h3>{link.name}</h3>
-    </a>
     <p className="link-org">{link.org}</p>
     <p className='link-text'>{link.about}</p>
+    </a>
 
   </div>)
+
 }
 const App = ()=>{
   return (
     <div className="App">
       <h1 className='page-title'>Eric Blom</h1>
       <div className="social-links">
-        <a href="https://github.com/ericjohannes/" taget="_blank" className="social-logo-link">
-          <img src="github-mark.png" className="social-logo"></img>
+        <a href="https://github.com/ericjohannes/" target="_blank" className="social-logo-link">
+          <img src="./github-mark.png" className="social-logo"></img>
         </a>
-        <a href="https://twitter.com/ejblom" taget="_blank" className="social-logo-link">
-          <img src="2021Twitterlogo-blue.png" className="social-logo"></img>
+        <a href="https://twitter.com/ejblom" target="_blank" className="social-logo-link">
+          <img src="./2021Twitterlogo-blue.png" className="social-logo"></img>
         </a>
-        <a href="https://www.linkedin.com/in/eric-blom-8241b167" taget="_blank" className="social-logo-link" >
-          <img src="LI-In-Bug.png" className="social-logo"></img>
+        <a href="https://www.linkedin.com/in/eric-blom-8241b167" target="_blank" className="social-logo-link" >
+          <img src="./LI-In-Bug.png" className="social-logo"></img>
         </a>
 
       </div>

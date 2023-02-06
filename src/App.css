@@ -22,11 +22,19 @@
   /* background-attachment: fixed; */
   background-size: cover;
 }
-.link-text{
+.link-text, .link-org {
+  color: #213547;
+}
+.link-text:hover, .link-org:hover {
+  color: #40678a;
+}
+.link-photo:hover{
+  opacity: .7;
+}
+.link-text{ 
   text-align: justify;
   margin-top: 8px;
-  /* font-size: 16px;
-  line-height: 18px; */
+
 }
 .link-org{
   font-weight: bold;
@@ -77,6 +85,7 @@ h1{
 .social-logo-link, .social-logo{
   width: 30px;
 }
+
 @media screen and (max-width: 870px) {
   .project-link{
     
