@@ -22,16 +22,16 @@
   /* background-attachment: fixed; */
   background-size: cover;
 }
-.about-text{
+.link-text{
   text-align: justify;
-  /* position: absolute;
-  top: 0px;
-  left: 100%;
-  background-color: rgba(0,0,0,.5) ;
-  height: 100%;
-  width: 100%; */
+  margin-top: 8px;
+  /* font-size: 16px;
+  line-height: 18px; */
 }
-
+.link-org{
+  font-weight: bold;
+  margin-top: 8px
+}
 .App{
   max-width: 1280px;
   margin-left: auto;
@@ -53,8 +53,30 @@
   /* background-color: #edeeff; */
   
 }
-
-
+h3{
+  margin-bottom: 8px;
+}
+h1{
+  margin-bottom: 10px;
+}
+.social-links{
+  display: flex;
+  flex-direction: row;
+  /* width: 400px; */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.social-logo-link{
+  padding-left: 5px;
+  padding-right: 5px;
+  /* margin: auto; */
+}
+.social-logo-link, .social-logo{
+  width: 30px;
+}
 @media screen and (max-width: 870px) {
   .project-link{
     
