@@ -56,7 +56,7 @@
     {
         "link": "https://www.sfchronicle.com/projects/2020/california-election-results/?fromRichie=1",
         "name": "Election rig",
-        "about": "I rewrote the app that provides live election results for all Hearst newspapers, the San Francisco Chronicle, Houston Chronicle, etc. It scrapes election results from csvs, pdfs and html documents, combines them with data gathered from the AP's election data API. It loads the data into a MySQL database and transforms it into JSON files formatted for live results pages that include tables and charts.\nI rewrote the app from Perl to Python and then expanded it to handle all Hearst papers, added features so it run on an AWS server in the cloud and managed updates to it through several election cycles.",
+        "about": "I rewrote the app that provides live election results for  the San Francisco Chronicle, Houston Chronicle and all other Hearst newspapers. It scrapes election results and grabs data from the AP's election data API then it into a MySQL database and transforms it into JSON files formatted for live results pages that include tables and charts. I rewrote the app from Perl to Python and then expanded it to handle all Hearst papers, added features so it run on an AWS server in the cloud and managed updates to it through several election cycles.",
         "org": "Hearst Newspapers/San Francisco Chronicle",
         "priority": 0,
         "photo": "electionrig1.png",
