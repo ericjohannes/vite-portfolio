@@ -9,7 +9,7 @@ const handleLink = (link)=>{
     <a href={link.link} targetf="_blank">
 
     <div className='photo-wrapper'>
-      <div className='link-photo' style={{backgroundImage: `url('./${link.photo}')`}}> </div>
+      <div className='link-photo' style={{backgroundImage: `url('./${link.photo}')`}} title={link.alt}> </div>
     </div>
       <h3>{link.name}</h3>
     <p className="link-org">{link.org}</p>
