@@ -11,6 +11,9 @@
   --main-type-color: #3d47ff;
   --hover-type-color: #535bf2;
 
+  --body-type: 'Lato', Georgia, serif;
+  --display-type: 'Francois One', Courier, Helvetica, Arial, sans-serif;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

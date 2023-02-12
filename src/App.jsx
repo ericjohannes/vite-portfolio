@@ -4,15 +4,13 @@ import links from './data/links.json'
 let highPriority = links.filter((link)=>link.priority==0)
 
 const handleLink = (link)=>{
-  console.log(link.title, link.position)
   const classNameSuf = link.position === 'center' ? 'link-photo-centered' : '';
-  console.log('classNameSuf', classNameSuf)
   return (
   <div key={`"link-${link.name}"`} className="project-link">            
     <a href={link.link} targetf="_blank">
 
     <div className='photo-wrapper'>
-      <img className={'link-photo'+ ` ${classNameSuf}`} src={link.photo} alt={link.alt}></img>
+      <img className={`link-photo ${classNameSuf}`} src={link.photo} alt={link.alt}></img>
     </div>
       <h3>{link.name}</h3>
     <p className="link-org">{link.org}</p>
