@@ -6,7 +6,8 @@
         "org": "National Geographic",
         "priority": 0,
         "photo": "elcano.png",
-        "alt": "A map showing the route of the first circumnavigation of the world."
+        "alt": "A map showing the route of the first circumnavigation of the world.",
+        "position": "left"
     },
     {
         "link": "https://preview.nationalgeographic.com/magazine/graphics/see-the-enduring-power-of-king-tut-as-never-before-feature?_isPremium=false&_isMetered=false&_isPreview=true&forceMode=fitt&digital=cloud&cb=1gn3ggv6h",
@@ -15,7 +16,8 @@
         "org": "National Geographic",
         "priority": 1,
         "photo": "tut.png",
-        "alt": "A bust of Tutankhamun with an annotation."
+        "alt": "A bust of Tutankhamun with an annotation.",
+        "position": "left"
     },
     {
         "link": "https://www.nationalgeographic.com/science/graphics/graphic-tracking-coronavirus-infections-us",
@@ -24,16 +26,18 @@
         "org": "National Geographic",
         "priority": 1,
         "photo": "coronavirus.png",
-        "alt": "Line charts of COVID cases and deaths."
+        "alt": "Line charts of COVID cases and deaths.",
+        "position": "left"
     },
     {
         "link": "https://github.com/ericjohannes/mailchimpToZephr",
         "name": "mailchimpToZephr app",
-        "about": "I wrote this node app to sync subscriber data between two systems. THe APIs natively allowed updates in one system to be sent to the other but not back the other way. This meant when someone unsubscribed from a newsletter via an email link that would not be reflected on their account when they logged into Protocol's website. My node app ran on an EC2 server and tapped into the MailChimp and Zephyr APIs so user data would be synced across both systems.",
+        "about": "I wrote this node app to sync subscriber data between two systems. The APIs natively allowed updates in one system to be sent to the other but not back the other way. This meant when someone unsubscribed from a newsletter via an email link that would not be reflected on their account when they logged into Protocol's website. My node app ran on an EC2 server and tapped into the MailChimp and Zephyr APIs so user data would be synced across both systems.",
         "org": "Protocol",
         "priority": 0,
         "photo": "mailchimpToZephyr.png",
-        "alt": "A screenshot of Javascript code."
+        "alt": "A screenshot of Javascript code.",
+        "position": "left"
     },
     {
         "link": "https://www.protocol.com/advertise/",
@@ -42,7 +46,8 @@
         "org": "Protocol",
         "priority": 2,
         "photo": "advertise.png",
-        "alt": "A screenshot showing Protocol.com mocked up on four phone screens."
+        "alt": "A screenshot showing Protocol.com mocked up on four phone screens.",
+        "position": "left"
     },
     {
         "link": "https://www.protocol.com/enterprise/russia-chip-imports",
@@ -51,7 +56,8 @@
         "org": "Protocol",
         "priority": 2,
         "photo": "russian.png",
-        "alt": "A bar chart showing foreign sources of Russian computer chips."
+        "alt": "A bar chart showing foreign sources of Russian computer chips.",
+        "position": "left"
     },
     {
         "link": "https://www.sfchronicle.com/projects/2020/california-election-results/?fromRichie=1",
@@ -60,7 +66,8 @@
         "org": "Hearst Newspapers/San Francisco Chronicle",
         "priority": 0,
         "photo": "electionrig1.png",
-        "alt": "A screenshot of Python code."
+        "alt": "A screenshot of Python code.",
+        "position": "left"
     },
     {
         "link": "https://www.sfchronicle.com/projects/2021/census-california/?fromRichie=1",
@@ -69,16 +76,18 @@
         "org": "Hearst Newspapers/San Francisco Chronicle",
         "priority": 0,
         "photo": "census.png",
-        "alt": "A screenshot of a webpage with a map and a dot plot."
+        "alt": "A screenshot of a webpage with a map and a dot plot.",
+        "position": "left"
     },
     {
         "link": "https://www.houstonchronicle.com/projects/coronavirus-vaccine-tracker-texas/?fromRichie=1",
         "name": "Vaccine tracker",
-        "about": "I was one of two developers who made a vaccine tracker for five metro areas and half a dozen smaller papers. I did most of the backend work to make a Python app to scrape several    `data sources, do some calculations, reformat the data and save it where our front end could use it. We created the interactive graphics using React.",
+        "about": "I was one of two developers who made a vaccine tracker for five metro areas and half a dozen smaller papers. I did most of the backend work to make a Python app to scrape several data sources, do some calculations, reformat the data and save it where our front end could use it. We created the interactive graphics using React.",
         "org": "Hearst Newspapers/San Francisco Chronicle",
         "priority": 0,
         "photo": "vaccines.png",
-        "alt": "A screenshot of a webpage with a map and bar charts showing COVID vaccine rates in Texas."
+        "alt": "A screenshot of a webpage with a map and bar charts showing COVID vaccine rates in Texas.",
+        "position": "left"
     },
     {
         "link": "https://store.bookbaby.com/book/pake",
@@ -87,6 +96,17 @@
         "org": "Bookbaby",
         "priority": 0,
         "photo": "pakebook2.jpeg",
-        "alt": "A photo of a book and a coffee mug on a table."
+        "alt": "A photo of a book and a coffee mug on a table.",
+        "position": "left"
+    },
+    {
+        "link": "https://github.com/ericjohannes/vite-portfolio",
+        "name": "This very site!",
+        "about": "I made this website with Vite and Netlify.",
+        "org": "Eric Blom",
+        "priority": 0,
+        "photo": "portfolio.png",
+        "alt": "A screenshot of this website.",
+        "position": "center"
     }
 ]

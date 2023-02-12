@@ -5,7 +5,13 @@
   padding: .5rem;
   text-align: center;
 }
+h1, h2, h3 {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+p {
+  font-family: 'Cardo', Georgia, serif;
 
+}
 .card {
   padding: 2em;
 }
@@ -19,15 +25,18 @@
 .link-photo{
   height:200px;
   width: 100%;
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+.link-photo-centered{
+  object-position: 50% 50%;
+
 }
 .link-text, .link-org {
-  color: #213547;
+  color: #010102;
 }
 .link-text:hover, .link-org:hover {
-  color: #40678a;
+  color: #284056;
 }
 .link-photo:hover{
   opacity: .7;
@@ -39,7 +48,8 @@
 }
 .link-org{
   font-weight: bold;
-  margin-top: 8px
+  margin-top: 8px;
+  font-size: 1.2em;
 }
 .App{
   max-width: 1280px;
@@ -56,7 +66,7 @@
 }
 .project-link{
   max-width: 30%;
-  border: 2px solid #3d47ff;
+  border: 2px solid var(--main-type-color);;
   padding: 10px;
   margin-bottom: 30px;
   /* background-color: #edeeff; */

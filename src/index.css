@@ -7,6 +7,9 @@
   color-scheme: normal;
   /* color: rgba(255, 255, 255, 0.87);
   background-color: #242424; */
+  --main-bg-color: brown;
+  --main-type-color: #3d47ff;
+  --hover-type-color: #535bf2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,11 +20,11 @@
 
 a {
   font-weight: 500;
-  color: #3d47ff;
+  color: var(--main-type-color);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--hover-type-color);;
 }
 
 body {
@@ -33,11 +36,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1.1;
   
 }
-
+h2{
+  font-size: 2.4em;
+}
+h3{
+  font-size: 1.6em;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
