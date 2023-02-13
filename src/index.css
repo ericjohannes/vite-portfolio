@@ -7,9 +7,9 @@
   color-scheme: normal;
   /* color: rgba(255, 255, 255, 0.87);
   background-color: #242424; */
-  --main-bg-color: brown;
-  --main-type-color: #3d47ff;
-  --hover-type-color: #535bf2;
+  --main-bg-color: rgb(243,248,253);
+  --main-type-color: rgba(214, 133, 51, 1);
+  --hover-type-color: rgb(240,209,179);
 
   --body-type: 'Lato', Georgia, serif;
   --display-type: 'Francois One', Courier, Helvetica, Arial, sans-serif;

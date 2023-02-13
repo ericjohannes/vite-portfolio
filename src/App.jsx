@@ -23,19 +23,21 @@ const handleLink = (link)=>{
 const App = ()=>{
   return (
     <div className="App">
-      <h1 className='page-title'>Eric Blom</h1>
-      <div className="social-links">
-        <a href="https://github.com/ericjohannes/" target="_blank" className="social-logo-link">
-          <img src="./github-mark.png" className="social-logo"></img>
-        </a>
-        <a href="https://twitter.com/ejblom" target="_blank" className="social-logo-link">
-          <img src="./2021Twitterlogo-blue.png" className="social-logo"></img>
-        </a>
-        <a href="https://www.linkedin.com/in/eric-blom-8241b167" target="_blank" className="social-logo-link" >
-          <img src="./LI-In-Bug.png" className="social-logo"></img>
-        </a>
+      <section className='topper'>
+        <h1 className='page-title'>Eric Blom</h1>
+        <div className="social-links">
+          <a href="https://github.com/ericjohannes/" target="_blank" className="social-logo-link">
+            <img src="./github-mark.png" className="social-logo"></img>
+          </a>
+          <a href="https://twitter.com/ejblom" target="_blank" className="social-logo-link">
+            <img src="./2021Twitterlogo-blue.png" className="social-logo"></img>
+          </a>
+          <a href="https://www.linkedin.com/in/eric-blom-8241b167" target="_blank" className="social-logo-link" >
+            <img src="./LI-In-Bug.png" className="social-logo"></img>
+          </a>
 
-      </div>
+        </div>
+      </section>
       <p className='intro'>I'm a senior newsroom developer at National Geographic. Before that I  was a developer for <a href="https://protocol.com" target="_blank">Protocol</a> (RIP) and <a href="https://www.sfchronicle.com/" target="_blank">Heasrt Newspapers</a>. I started my career reporting for a <a href="https://rivertonranger.com/" target="_blank">small newspaper in Wyoming</a> but fell in love with coding from <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank">CS50</a>, online intro to computer science course.</p>
       <h2 className='subhead'>Projects I'm proud of</h2>
       {/* <p className='disclaimer'>I sought to have the link to work around paywalls but some workarounds might stop working. Also, most of the code is proprietary so I'm showing what I can.</p> */}
