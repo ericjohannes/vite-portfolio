@@ -94,13 +94,12 @@ p {
   border-radius: 10px 50px;
   background-color: var(--main-bg-color);
 }
-/* .subhead{
-  padding:10px;
-  border-radius: 10px 50px;
-  background-color: var(--main-bg-color);
-} */
+.subhead{
+  line-height: 1em;
+}
 h3{
   margin-bottom: 8px;
+  line-height: 1.1em;
 }
 h1{
   margin-bottom: 10px;
@@ -133,14 +132,14 @@ h1{
 
 }
 @media screen and (max-width: 480px) {
-  .App{
+  /* .App{
 
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+     margin-left: 10px;
+    margin-right: 10px; 
+  } */
   .project-link{
     
-    max-width: 90%;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
      
