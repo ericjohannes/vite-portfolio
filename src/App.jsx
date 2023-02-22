@@ -6,8 +6,9 @@ let highPriority = links.filter((link)=>link.priority==0)
 const handleLink = (link)=>{
   const classNameSuf = link.position === 'center' ? 'link-photo-centered' : '';
   return (
+    <a href={link.link} target="_blank" className='project-link-a'>
+
   <div key={`"link-${link.name}"`} className="project-link">            
-    <a href={link.link} targetf="_blank">
 
     <div className='photo-wrapper'>
       <img className={`link-photo ${classNameSuf}`} src={link.photo} alt={link.alt}></img>
@@ -15,9 +16,10 @@ const handleLink = (link)=>{
       <h3>{link.name}</h3>
     <p className="link-org">{link.org}</p>
     <p className='link-text'>{link.about}</p>
-    </a>
 
-  </div>)
+  </div>
+  </a>
+)
 
 }
 const App = ()=>{
