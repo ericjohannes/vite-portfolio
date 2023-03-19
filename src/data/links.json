@@ -1,5 +1,15 @@
 [
     {
+        "link": "https://preview.nationalgeographic.com/history/graphics/map-nazi-germany-uboat-battle-atlantic-wwii?_isPremium=false&_isMetered=false&_isPreview=true&cb=1gm3ull0d&digital=cloud",
+        "name": "Battle of the Atlantic graphics",
+        "about": "I extended our Vite-based build tool to generate svg graphics on the server side using D3.js. I also analyzed the data behind the maps with Python and developed the story idea.",
+        "org": "National Geographic",
+        "priority": 0,
+        "photo": "uboats.png",
+        "alt": "A screenshot of map showing where ships were sunk in WWII along with casualty statistics.",
+        "position": "left"
+    },
+    {
         "link": "https://preview.nationalgeographic.com/magazine/graphics/follow-the-troubled-path-of-the-first-voyage-around-the-world?_isPremium=false&_isMetered=false&_isPreview=true&forceMode=fitt&digital=cloud&cb=1ga71i3eq",
         "name": "Elcano interactive map",
         "about": "I created the interactive graphics for this page using OpenSeaDragon to serve a tiled image and D3.js to construct a route across it that you follow as you scroll. The graphic lets you follow the route of the first circumnavigation of the world. The page is written in Javascript.",
