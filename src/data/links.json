@@ -2,7 +2,7 @@
     {
         "link": "https://github.com/ericjohannes/campr",
         "name": "Campr AWS app",
-        "about": "Campr is an application that checks for campsite availability at certain Minnesota State parks every 6 hours for summer weekends and emails me if they're available. The app has a built in CI/CD pipeline via github actions to deploy it as an AWS Lambda function, and it uses Sendgrid to send me emails.",
+        "about": "Campr is an application that checks for campsite availability at certain Minnesota State parks every 6 hours for summer weekends and emails me if they're available. Reservations fill up fast so the app effectively checks for cancellations. The app has a built in CI/CD pipeline via github actions to deploy it as an AWS Lambda function, and it uses Sendgrid to send me emails.",
         "org": "Personal Project",
         "priority": 0,
         "photo": "campr_email.png",
