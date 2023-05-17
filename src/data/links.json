@@ -1,5 +1,15 @@
 [
     {
+        "link": "https://github.com/ericjohannes/campr",
+        "name": "Campr AWS app",
+        "about": "Campr is an application that checks for campsite availability at certain Minnesota State parks every 6 hours for summer weekends and emails me if they're available. The app has a built in CI/CD pipeline via github actions to deploy it as an AWS Lambda function, and it uses Sendgrid to send me emails.",
+        "org": "Personal Project",
+        "priority": 0,
+        "photo": "campr_email.png",
+        "alt": "A screenshot of an email from the campr app listing available campsites.",
+        "position": "left"
+    },
+    {
         "link": "https://preview.nationalgeographic.com/history/graphics/map-nazi-germany-uboat-battle-atlantic-wwii?_isPremium=false&_isMetered=false&_isPreview=true&cb=1gm3ull0d&digital=cloud",
         "name": "Battle of the Atlantic graphics",
         "about": "I extended our Vite-based build tool to generate svg graphics on the server side using D3.js. I also analyzed the data behind the maps with Python and developed the story idea.",
