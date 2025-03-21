@@ -2,7 +2,7 @@
     {
         "link": "https://ericjohannes.github.io/pwhl-elo/",
         "name": "PWHL Elo",
-        "about": "Calculates Elo ratings for Professional Women's Hockey League teams from data automatically gathered in ETL pipeline.",
+        "about": "Calculates Elo ratings for Professional Women's Hockey League teams. Data is gathered daily through ETL pipeline deployed in Github Actions.",
         "org": "Personal Project",
         "priority": 0,
         "photo": "elo_chart.png",
