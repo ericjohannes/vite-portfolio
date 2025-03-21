@@ -1,5 +1,15 @@
 [
     {
+        "link": "https://ericjohannes.github.io/pwhl-elo/",
+        "name": "PWHL Elo",
+        "about": "Calculates Elo ratings for Professional Women's Hockey League teams from data automatically gathered in ETL pipeline.",
+        "org": "Personal Project",
+        "priority": 0,
+        "photo": "elo_chart.png",
+        "alt": "A screenshot of a chart of Elo ratings.",
+        "position": "left"
+    },
+    {
         "link": "https://github.com/ericjohannes/quizbot",
         "name": "Quiz bot",
         "about": "An AI-powered app to automatically generate multiple choice questions from an article.",
